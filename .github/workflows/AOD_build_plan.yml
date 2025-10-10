@@ -42,7 +42,7 @@ jobs:
           pak: 'false'
           server: 'false'
           archive: 'false'
-          archivePath: 'path/to/archive'
+          archivePath: './archive'
           nullrhi: 'false'
           editor: 'true'
           encryptIniFiles: 'false'
