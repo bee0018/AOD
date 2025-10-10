@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: test
-        run: pwd
+        run:  find . -iname "ArtOfDespot.uproject"
       - name: Build Unreal Engine 5 Project
         uses: Fork-on-the-Table-Collective/UE5-build-action@v1.0
         with:
