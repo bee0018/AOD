@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Unreal Engine 5 Build
 
 # Controls when the workflow will run
 on:
@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Build Unreal Engine 5 Project
-        uses: Fork-on-the-Table-Collective/UE5-build-action@v1
+        uses: Fork-on-the-Table-Collective/UE5-build-action@v1.0
         with:
           enginePath: 'C:/Program Files/Epic Games/UE_5.4'
           uprojectPath: 'path/to/your/project.uproject'
